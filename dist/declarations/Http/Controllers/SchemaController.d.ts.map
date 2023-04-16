@@ -1,0 +1,1 @@
+{"version":3,"file":"SchemaController.d.ts","sourceRoot":"","sources":["../../../../src/Http/Controllers/SchemaController.ts"],"names":[],"mappings":"AACA,OAAO,UAAU,MAAM,cAAc,CAAC;AACtC,OAAO,KAAK,QAAQ,MAAM,uBAAuB,CAAC;AAClD,OAAO,KAAK,aAAa,MAAM,2BAA2B,CAAC;AAG3D,MAAM,CAAC,OAAO,OAAO,gBAAiB,SAAQ,UAAU;IACtD;;OAEG;IACU,QAAQ,CAAC,OAAO,EAAE,aAAa,GAAG,OAAO,CAAC,QAAQ,CAAC;CAGjE"}

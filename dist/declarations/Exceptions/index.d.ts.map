@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/Exceptions/index.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,aAAa,CAAC;AACpC,OAAO,kBAAkB,MAAM,sBAAsB,CAAC;AACtD,OAAO,iBAAiB,MAAM,qBAAqB,CAAC;AACpD,OAAO,oBAAoB,MAAM,wBAAwB,CAAC;AAC1D,OAAO,gBAAgB,MAAM,oBAAoB,CAAC;AAElD,OAAO,EACL,SAAS,EACT,kBAAkB,EAClB,iBAAiB,EACjB,oBAAoB,EACpB,gBAAgB,GACjB,CAAC"}

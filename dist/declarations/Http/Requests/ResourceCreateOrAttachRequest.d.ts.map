@@ -1,0 +1,1 @@
+{"version":3,"file":"ResourceCreateOrAttachRequest.d.ts","sourceRoot":"","sources":["../../../../src/Http/Requests/ResourceCreateOrAttachRequest.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,YAAY,EAAE,MAAM,GAAG,CAAC;AAE9C,MAAM,CAAC,OAAO,OAAO,6BAA8B,SAAQ,WAAW;IACpE;;OAEG;IACH,IAAI,IAAI,YAAY;CAGrB"}

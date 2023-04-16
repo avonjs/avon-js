@@ -1,0 +1,1 @@
+{"version":3,"file":"ResourceIndexResponse.d.ts","sourceRoot":"","sources":["../../../../src/Http/Responses/ResourceIndexResponse.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,sBAAsB,EAAE,MAAM,OAAO,CAAC;AACpD,OAAO,QAAQ,MAAM,YAAY,CAAC;AAElC,MAAM,CAAC,OAAO,OAAO,qBAAsB,SAAQ,QAAQ;gBAC7C,IAAI,EAAE,sBAAsB,EAAE,EAAE,IAAI,GAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAM;CAG3E"}

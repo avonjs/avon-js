@@ -1,0 +1,1 @@
+{"version":3,"file":"RouteRegisterar.d.ts","sourceRoot":"","sources":["../../../src/Route/RouteRegisterar.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AAEtC,MAAM,CAAC,OAAO;IACA,SAAS,CAAC,MAAM,EAAE,MAAM;gBAAd,MAAM,EAAE,MAAM;IAE7B,QAAQ,IAAI,IAAI;IAIvB,SAAS,CAAC,cAAc,IAAI,IAAI;CAgDjC"}

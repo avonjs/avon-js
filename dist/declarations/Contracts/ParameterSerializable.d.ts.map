@@ -1,0 +1,1 @@
+{"version":3,"file":"ParameterSerializable.d.ts","sourceRoot":"","sources":["../../../src/Contracts/ParameterSerializable.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,SAAS,EAAE,MAAM,eAAe,CAAC;AAC/C,OAAO,EAAE,KAAK,WAAW,EAAE,MAAM,kBAAkB,CAAC;AAEpD,MAAM,WAAW,qBAAqB;IACpC;;OAEG;IACH,mBAAmB,EAAE,CAAC,OAAO,EAAE,WAAW,KAAK,SAAS,CAAC,eAAe,EAAE,CAAC;CAC5E"}
