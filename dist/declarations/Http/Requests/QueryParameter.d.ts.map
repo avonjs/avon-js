@@ -1,1 +1,0 @@
-{"version":3,"file":"QueryParameter.d.ts","sourceRoot":"","sources":["../../../../src/Http/Requests/QueryParameter.ts"],"names":[],"mappings":";;;;;;;;;;;;;AAEA,MAAM,CAAC,OAAO,CAAC,QAAQ,OAAO,cAAe,SAAQ,mBAAkB;IACrE;;OAEG;IACH,QAAQ,CAAC,GAAG,IAAI,MAAM;CACvB"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"SuccessfulResponse.d.ts","sourceRoot":"","sources":["../../../../src/Http/Responses/SuccessfulResponse.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,YAAY,CAAC;AAElC,MAAM,CAAC,OAAO,OAAO,kBAAmB,SAAQ,QAAQ;gBAEpD,OAAO,GAAE,MAAwC,EACjD,IAAI,GAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAM;CAIjC"}

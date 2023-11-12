@@ -1,1 +1,0 @@
-{"version":3,"file":"ResourceAssociationResponse.d.ts","sourceRoot":"","sources":["../../../../src/Http/Responses/ResourceAssociationResponse.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,YAAY,CAAC;AAElC,MAAM,CAAC,OAAO,OAAO,2BAA4B,SAAQ,QAAQ;gBAE7D,IAAI,EAAE,KAAK,CAAC,MAAM,CAAC,MAAM,EAAE,GAAG,CAAC,CAAC,EAChC,IAAI,GAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAM;CAIjC"}

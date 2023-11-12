@@ -1,1 +1,0 @@
-{"version":3,"file":"ActionIndexResponse.d.ts","sourceRoot":"","sources":["../../../../src/Http/Responses/ActionIndexResponse.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,eAAe,EAAE,MAAM,sBAAsB,CAAC;AAC5D,OAAO,QAAQ,MAAM,YAAY,CAAC;AAElC,MAAM,CAAC,OAAO,OAAO,mBAAoB,SAAQ,QAAQ;gBAC3C,IAAI,EAAE,eAAe,EAAE,EAAE,IAAI,GAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAM;CAGpE"}

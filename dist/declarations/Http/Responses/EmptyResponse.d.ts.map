@@ -1,1 +1,0 @@
-{"version":3,"file":"EmptyResponse.d.ts","sourceRoot":"","sources":["../../../../src/Http/Responses/EmptyResponse.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,YAAY,CAAC;AAElC,MAAM,CAAC,OAAO,OAAO,aAAc,SAAQ,QAAQ;gBACrC,IAAI,GAAE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAM;CAG3C"}

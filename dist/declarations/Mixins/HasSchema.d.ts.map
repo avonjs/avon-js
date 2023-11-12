@@ -1,1 +1,0 @@
-{"version":3,"file":"HasSchema.d.ts","sourceRoot":"","sources":["../../../src/Mixins/HasSchema.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,SAAS,EAAE,MAAM,eAAe,CAAC;AAC/C,OAAO,EAAE,KAAK,OAAO,EAAE,KAAK,eAAe,EAAE,MAAM,WAAW,CAAC;AAC/D,OAAO,EAAE,KAAK,WAAW,EAAE,MAAM,kBAAkB,CAAC;;IAOhD;;OAEG;oBAEQ,WAAW,GACnB,UAAU,eAAe,GAAG,UAAU,YAAY;;AATzD,wBAaE"}

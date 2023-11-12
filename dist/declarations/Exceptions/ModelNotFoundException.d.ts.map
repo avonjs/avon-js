@@ -1,1 +1,0 @@
-{"version":3,"file":"ModelNotFoundException.d.ts","sourceRoot":"","sources":["../../../src/Exceptions/ModelNotFoundException.ts"],"names":[],"mappings":"AAAA,OAAO,iBAAiB,MAAM,qBAAqB,CAAC;AAEpD,MAAM,CAAC,OAAO,OAAO,sBAAuB,SAAQ,iBAAiB;IACnE,OAAO,SAAqB;CAC7B"}
