@@ -76,11 +76,11 @@ Avon has a few requirements you should be aware of before installing:
 
 via npm:
 
-    npm install avon-js
+    npm install avonjs
 
 via yarn:
 
-    yarn install avon-js
+    yarn install avonjs
 
 ## Initialize
 
@@ -89,7 +89,7 @@ At first point you have to register the router:
 ```
 // index.js
 
-import { Avon } from 'avon-js';
+import { Avon } from 'avonjs';
 import express from 'express';
 
 const app = express();
@@ -116,7 +116,7 @@ To create a Resource you have to create a file and put the following in that:
 ```
 // Resources/Post.js
 
-import { Resource } from 'avon-js';
+import { Resource } from 'avonjs';
 
 export default class Post extends Resource {
     /**
@@ -134,7 +134,7 @@ The most basic and fundamental method of a resource is its `repository`. This me
 // Repositories/Posts.js
 
 
-import { CollectionRepository } from 'avon-js';
+import { CollectionRepository } from 'avonjs';
 
 export default class Posts extends CollectionRepository {
 
@@ -158,7 +158,7 @@ Don't worry, you'll learn more about [repositories](#defining-repositories) late
 
 ```
 import Posts from '../Repositories/Posts.js';
-import { Resource } from 'avon-js';
+import { Resource } from 'avonjs';
 
 export default class Post extends Resource {
     /**
@@ -252,7 +252,7 @@ To add a field to a resource, you may simply add it to the resource's fields met
 ```
 // Resources/Post.js
 
-import { ID, Text } from 'avon-js';
+import { ID, Text } from 'avonjs';
 
 
 /**
@@ -400,7 +400,7 @@ new Text('name').filterable((request, repository, value) => {
 The `Array` field pairs nicely with model attributes that are cast to `array` or equivalent:
 
 ```
-import { Array } from 'avon-js';
+import { Array } from 'avonjs';
 
 new Array('tags')
 ```
@@ -410,7 +410,7 @@ new Array('tags')
 The `Boolean` field may be used to represent a boolean / "tiny integer" column in your database. For example, assuming your database has a boolean column named `active`, you may attach a `Boolean` field to your resource like so:
 
 ```
-import { Boolean } from 'avon-js';
+import { Boolean } from 'avonjs';
 
 
 new Boolean('active').rules(Joi.required()).nullable(false)
@@ -421,7 +421,7 @@ new Boolean('active').rules(Joi.required()).nullable(false)
 The `DateTime` field may be used to store a `datetime` value.
 
 ```
-import { DateTime } from 'avon-js';
+import { DateTime } from 'avonjs';
 
 
 new DateTime('publish_at'),
@@ -434,7 +434,7 @@ The `format` method allows you to customize the date format that accepts any val
 The `Email` field may be used to store a `email` value.
 
 ```
-import { Email } from 'avon-js';
+import { Email } from 'avonjs';
 
 
 new Email('mail'),
@@ -445,7 +445,7 @@ new Email('mail'),
 The `ID` field represents the primary key of your resource's repository model. Typically, each Avon resource you define should contain an `ID` field. By default, the `ID` field assumes the underlying storage column is named `id`; however, you may pass the column name when creating an `ID` field:
 
 ```
-import { ID } from 'avon-js';
+import { ID } from 'avonjs';
 
 new ID()
 ```
@@ -455,7 +455,7 @@ new ID()
 The `Json` field provides a convenient interface to edit, `key-value` data stored inside `JSON` column types. For example, you might store some information inside a `JSON` column type (opens new window) named `meta`:
 
 ```
-import { ID, Json, Text } from 'avon-js';
+import { ID, Json, Text } from 'avonjs';
 
 new Json('meta', [
     new Text('title').creationRules(Joi.required()),
@@ -467,7 +467,7 @@ new Json('meta', [
 The `Integer` field store / retrieve value as `integer` in the model:
 
 ```
-import { Integer } from 'avon-js';
+import { Integer } from 'avonjs';
 
 new Integer('hits')
 ```
@@ -477,7 +477,7 @@ new Integer('hits')
 The `Text` field store / retrieve value as `string` in the model:
 
 ```
-import { Text } from 'avon-js';
+import { Text } from 'avonjs';
 
 new Text('name')
 ```
@@ -527,7 +527,7 @@ In addition to the variety of fields we've already discussed, Avon has support f
 The `BelongsTo` field corresponds to a `belongs-to` relationship. For example, let's assume a `Post` resource belongs to a `User` resource. We may add the relationship to our `Post` Avon resource like so:
 
 ```
-import { BelongsTo } from 'avon-js';
+import { BelongsTo } from 'avonjs';
 
 new BelongsTo('users')
 ```
@@ -578,7 +578,7 @@ new BelongsTo('users').load()
 The `HasMany` field corresponds to a `one-to-many` realtionship. A one-to-many relationship is used to define relationships where a single model is the parent to one or more child models. For example, a use may have a many posts in the blog. We may add the relationship to our `User` Avon resource like so:
 
 ```
-import { HasMany } from 'avon-js';
+import { HasMany } from 'avonjs';
 
 new HasMany('posts')
 ```
@@ -586,7 +586,7 @@ new HasMany('posts')
 Like another realtionships, `HasMany` accepts the `uriKey` of the target resource as first argument Also, guess the `relationship` name from the target resurce, but you can pass the second argument when creating a field to change that.
 
 ```
-import { HasMany } from 'avon-js';
+import { HasMany } from 'avonjs';
 
 new HasMany('posts', 'latestPosts')
 ```
@@ -616,7 +616,7 @@ new HasOne('posts', 'latestPosts').withForeignKey('author_id')
 The `BelongsToMany` field corresponds to a `many-to-many` relationship. For example, let's assume a `Post` Avon resource has many `Tag` Avon resource and in reverse `Tag` Avon resource has many `Post` Avon resource. to show the realted `Tag` records on the `Post` resource `index` / `detail` api, we need two another more resource to hold the `pivot` table. so we have to create `PostTag` Avon resource to store joining records. we may add the relationship on the `Post` resource like so:
 
 ```
-import { BelongsToMany } from 'avon-js';
+import { BelongsToMany } from 'avonjs';
 
 new BelongsToMany('tags', 'post-tags')
 ```
@@ -786,7 +786,7 @@ To create a repository you have to create a file that conains class extened Avon
 ```
 // Repositories/Collection.js
 
-import { Repository } from "avon-js";
+import { Repository } from "avonjs";
 
 export class MyRepository extends Repository {
     /**
@@ -893,7 +893,7 @@ To create a filter you have to create a javascript class that extends the Avon `
 // Filters/ActivePosts.js
 
 
-import { Filter } from 'avon-js';
+import { Filter } from 'avonjs';
 
 export class ActivePosts extends Filter {
     /**
@@ -915,7 +915,7 @@ The most common type of Avon filter is the "select" filter, which allows the use
 // Filters/FilterByRoles.js
 
 
-import { SelectFilter } from 'avon-js';
+import { SelectFilter } from 'avonjs';
 
 export class FilterByRoles extends SelectFilter {
     /**
@@ -944,7 +944,7 @@ The Avon "boolean" filters, allow the user to determine a filter should apply on
 // Filters/ActivePosts.js
 
 
-import { BooleanFilter } from 'avon-js';
+import { BooleanFilter } from 'avonjs';
 
 export class ActivePosts extends BooleanFilter {
     /**
@@ -964,7 +964,7 @@ The "range" filters allow the user to chose records that has a value between a s
 // Filters/FilterByHits.js
 
 
-import { SelectFilter } from 'avon-js';
+import { SelectFilter } from 'avonjs';
 
 export class FilterByHits extends SelectFilter {
     /**
@@ -1015,7 +1015,7 @@ To create a ordering you have to create a javascript class that extends the Avon
 // Orderings/OrderByFullName.js
 
 
-import { Ordering } from 'avon-js';
+import { Ordering } from 'avonjs';
 
 export class OrderByFullName extends Ordering {
     /**
@@ -1063,7 +1063,7 @@ Avon actions allow you to perform custom tasks on one or more resource records. 
 Once an action has been attached to a resource definition, you can see extra API on the swagger-ui. to create an action you have to create a class that extended by the Avon `Action`:
 
 ```
-import { Action } from 'avon-js';
+import { Action } from 'avonjs';
 
 export class Publish extends Action {
     /**
@@ -1113,7 +1113,7 @@ To create a custom response class, you have to create class extended base Avon `
 // Actions/Responses/PublishedResponse.js
 
 
-import { Response } from "avon-js";
+import { Response } from "avonjs";
 
 export class PublishedResponse extends Response {
   constructor(meta= {}) {
@@ -1169,6 +1169,7 @@ actions(request){
 # Error Handling
 
 ## Register Error Handler
+
 The `handleErrorUsing` on the Avon allows you to register a cutom callback to handle errors:
 
 ```

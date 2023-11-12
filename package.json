@@ -1,5 +1,5 @@
 {
-  "name": "avon-js",
+  "name": "avonjs",
   "version": "2.0.0",
   "description": "A fluent Node.js API generator.",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "express",
     "expressjs",
     "avon",
-    "avon-js"
+    "avonjs"
   ],
   "author": "zarehesmaiel@gmail.com",
   "license": "MIT",
